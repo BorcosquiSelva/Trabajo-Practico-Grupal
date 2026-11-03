@@ -30,19 +30,6 @@ Entre septiembre de 2025 y septiembre de 2026, el índice promedio de los 298 pr
 
 Fuente: [INDEC, Índice de precios al consumidor, septiembre de 2026](https://www.indec.gob.ar/uploads/informesdeprensa/ipc_10_268C45A9444C.pdf).
 
-## Estado del trabajo
-
-- [x] Carga del dataset y exploración inicial.
-- [x] Conversión de fecha y precio unitario para el análisis.
-- [x] Identificación de productos presentes en los 13 meses.
-- [x] Cálculo de la variación del conjunto y comparación con el IPC.
-- [x] Primer gráfico de evolución mensual del índice, con exportación a PNG.
-- [ ] Completar e interpretar los otros dos gráficos requeridos.
-- [ ] Completar y ejecutar el notebook en Google Colab y exportarlo como `.ipynb`.
-- [ ] Redactar el informe académico en PDF, de 3 a 5 páginas.
-- [ ] Preparar la presentación obligatoria, de 6 a 10 diapositivas.
-- [ ] Documentar en el notebook las celdas asistidas por IA y los prompts utilizados.
-
 ## Ejecución
 
 El análisis se desarrolla en **Python y Google Colab**, con las librerías `pandas`, `numpy` y `matplotlib`.
