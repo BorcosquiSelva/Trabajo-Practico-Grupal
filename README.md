@@ -16,8 +16,6 @@ El análisis utiliza registros de una farmacia entre el **1 de septiembre de 202
 - Identificador de producto: `TROQUEL`. Se verificó que cada código corresponde a una descripción `DESCRIPX` y viceversa.
 - El CSV utiliza `;` como separador y codificación `cp1252`. Los datos se cargan inicialmente como texto.
 
-El archivo debe incluirse en el repositorio o acompañarse con instrucciones para obtenerlo. En Google Colab, el código de carga espera encontrarlo en `/content/Dataset_farmacia.csv`.
-
 ## Método de comparación
 
 Para reducir el efecto de cambios en la mezcla de productos vendidos, se seleccionaron los **298 códigos `TROQUEL` presentes en los 13 meses**. Se calculó el precio unitario promedio de cada producto en cada mes y se expresó su evolución como un índice individual, con septiembre de 2025 como base 100. Luego se promediaron los índices de los productos, asignando el mismo peso a cada uno.
